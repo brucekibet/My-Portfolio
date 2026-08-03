@@ -831,6 +831,64 @@ body.dark .service .service-item-inner .icon .fa,
   color: #111111 !important;
 }
 
+.portfolio-content{
+    padding:20px;
+}
+
+.portfolio-content h3{
+    font-size:22px;
+    margin-bottom:12px;
+}
+
+.portfolio-content p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.tech-stack span{
+    background:#f1f1f1;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.portfolio-buttons{
+    display:flex;
+    gap:12px;
+}
+
+.small-btn{
+    padding:10px 18px;
+    font-size:14px;
+}
+
+.portfolio-item-inner{
+    overflow:hidden;
+    transition:.3s;
+}
+
+.portfolio-item-inner:hover{
+    transform:translateY(-8px);
+}
+
+.portfolio-img img{
+    width:100%;
+    display:block;
+    transition:.3s;
+}
+
+.portfolio-item-inner:hover img{
+    transform:scale(1.05);
+}
 
 
 
